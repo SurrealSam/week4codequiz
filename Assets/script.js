@@ -35,15 +35,15 @@ var questionBlock = document.getElementById("card1");
 //start button
 startBtn.addEventListener("click", function () {
 
-    startBlock.style.display = "none";
-    questionBlock.style.display = "block";
-    console.log("1");
-});
-
-//countdown timer/score
+    startBlock.style.display = "none"; //hides div
+    questionBlock.style.display = "block"; //unhides other div
+    
+    //countdown timer/score
 var seconds = document.getElementById("countdown").textContent;
 var countdown = setInterval(function() {
     seconds--;
     document.getElementById("countdown").textContent = seconds;
     if (seconds <= 0) clearInterval(countdown);
 }, 1000);
+});
+
