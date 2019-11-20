@@ -23,73 +23,22 @@
         <div class="card">
             <span class="score text-center">Score:</span>
             <span class="score text-center" id="countdown">75</span>
-            <h4 class="card-header"></h4>
+
             <!--The Question goes here-->
-            <div class="card-body"> <!-- Question 1-->
-                <div class="text-center">
-                    <h4>Commonly used data types DO NOT include:</h4>
-                    <button class="btn btn-dark btn-lg normal-button">
-                        <span id="answer11" class="fa fa-ok">strings</span> </button>
-                    <button class="btn btn-dark btn-lg">
-                        <span id="answer12" class="fa fa-plus"></span> booleans</button>
-                    <button class="btn btn-dark btn-lg">
-                        <span id="answer13" class="fa fa-minus"></span>alerts </button>
-                    <button class="btn btn-dark btn-lg">
-                        <span id="answer14" class="fa fa-minus"></span>numbers </button>
+            <div class="card-body">
+                <!-- Question 1-->
+                <div  class="text-center">
+                    <h4 id="actualQuestion" class="card-header"></h4>
+                    <button id="btn1" class="btn btn-dark btn-lg">
+                        <span id="answer1" class="fa fa-ok"></span> </button>
+                    <button id="btn2" class="btn btn-dark btn-lg">
+                        <span id="answer2" class=" fa fa-plus"></span></button>
+                    <button id="btn3" class="btn btn-dark btn-lg">
+                        <span id="answer3" class="fa fa-minus"></span></button>
+                    <button id="btn4" class="btn btn-dark btn-lg">
+                        <span id="answer4" class="fa fa-minus"></span></button>
                 </div>
             </div>
-            <div class="card-body"><!-- Question 2-->
-                    <div class="text-center">
-                        <h4>The condition in an if / else statement is enclosed within ____.</h4>
-                        <button class="btn btn-dark btn-lg normal-button">
-                            <span id="answer21" class="fa fa-ok">quotes</span> </button>
-                        <button class="btn btn-dark btn-lg">
-                            <span id="answer22" class="fa fa-plus">curly brackets</span> </button>
-                        <button class="btn btn-dark btn-lg">
-                            <span id="answer23" class="fa fa-minus">parentheses</span> </button>
-                        <button class="btn btn-dark btn-lg">
-                            <span id="answer24" class="fa fa-minus">square brackets</span> </button>
-                    </div>
-                </div>
-                <div class="card-body"> <!-- Question 3-->
-                        <div class="text-center">
-                                <h4>_____ is the file type commonly used to modify style elements.</h4>
-                            <button class="btn btn-dark btn-lg normal-button">
-                                <span id="answer31" class="fa fa-ok">Javascript</span> </button>
-                            <button class="btn btn-dark btn-lg">
-                                <span id="answer32" class="fa fa-plus">HTML</span> </button>
-                            <button class="btn btn-dark btn-lg">
-                                <span id="answer33" class="fa fa-minus">JQuery</span> </button>
-                            <button class="btn btn-dark btn-lg">
-                                <span id="answer34" class="fa fa-minus">CSS</span> </button>
-                        </div>
-                    </div>
-                    <div class="card-body"> <!-- Question 4-->
-                            <div class="text-center">
-                                    <h4>Javascript variables that can store more than one piece of data are called _____.</h4>
-                                <button class="btn btn-dark btn-lg normal-button">
-                                    <span id="answer41" class="fa fa-ok">Arrays</span> </button>
-                                <button class="btn btn-dark btn-lg">
-                                    <span id="answer42" class="fa fa-plus">Variables</span> </button>
-                                <button class="btn btn-dark btn-lg">
-                                    <span id="answer43" class="fa fa-minus">For loops</span> </button>
-                                <button class="btn btn-dark btn-lg">
-                                    <span id="answer44" class="fa fa-minus">Timeouts</span> </button>
-                            </div>
-                        </div>
-                        <div class="card-body"> <!-- Question 5-->
-                                <div class="text-center">
-                                        <h4>To properly render javascript, one should place their reference link in the end of HTML ____.</h4>
-                                    <button class="btn btn-dark btn-lg normal-button">
-                                        <span id="answer51" class="fa fa-ok">body</span> </button>
-                                    <button class="btn btn-dark btn-lg">
-                                        <span id="answer52" class="fa fa-plus">head</span> </button>
-                                    <button class="btn btn-dark btn-lg">
-                                        <span id="answer53" class="fa fa-minus">header</span> </button>
-                                    <button class="btn btn-dark btn-lg">
-                                        <span id="answer54" class="fa fa-minus">script</span> </button>
-                                </div>
-                            </div>
         </div>
     </div>
     <script src="./Assets/script.js"></script>
