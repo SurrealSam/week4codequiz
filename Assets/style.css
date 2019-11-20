@@ -1,3 +1,9 @@
 #card1 {
     display: none;
  }
+ #getready {
+     display: block;
+ }
+ .score {
+     font-size: 36px;
+ }
