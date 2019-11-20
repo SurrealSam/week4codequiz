@@ -38,12 +38,13 @@ startBtn.addEventListener("click", function () {
     startBlock.style.display = "none"; //hides div
     questionBlock.style.display = "block"; //unhides other div
     
-    //countdown timer/score
+    //starts countdown timer/score
 var seconds = document.getElementById("countdown").textContent;
 var countdown = setInterval(function() {
     seconds--;
     document.getElementById("countdown").textContent = seconds;
     if (seconds <= 0) clearInterval(countdown);
 }, 1000);
+    
 });
 
